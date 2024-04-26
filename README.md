@@ -1,0 +1,1 @@
+# faggruppe-platform-oslo-playground
