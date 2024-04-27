@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e pipefail
+
+echo "This file should be imported into your current shell via 'source ./99_cleanup'"
+
+# remove variables set by 0_prereqs.sh
+unset RANDOM_ID
+unset MY_RESOURCE_GROUP_NAME
+unset REGION
+unset MY_AKS_CLUSTER_NAME
+unset MY_DNS_LABEL
+
+echo
+echo "All variables removed"
