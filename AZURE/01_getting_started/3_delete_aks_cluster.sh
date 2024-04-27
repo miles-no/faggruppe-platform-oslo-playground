@@ -12,4 +12,4 @@ kubectl config delete-context $MY_AKS_CLUSTER_NAME
 az group delete --name $MY_RESOURCE_GROUP_NAME --no-wait
 
 # reminder on variables
-echo "Remember to clean up your variables by running: './source 99_cleanup'"
+echo "Remember to clean up your variables by running: 'source ./99_cleanup'"

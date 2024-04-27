@@ -24,7 +24,7 @@ From a shell
 
 - Delete the AKS cluster and kubectl config:
 
-`./9_delete_aks_cluster.sh`
+`./3_delete_aks_cluster.sh`
 
 - Remove global variables:
 
