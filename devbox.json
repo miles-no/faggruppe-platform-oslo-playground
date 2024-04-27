@@ -1,9 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetpack-io/devbox/0.10.2/.schema/devbox.schema.json",
   "packages": [
-    "google-cloud-sdk@latest",
+    "path:gcloud#google-cloud-sdk",
     "opentofu@latest",
-    "kubectl@latest"
+    "kubectl@latest",
+    "k9s@latest"
   ],
   "shell": {
     "init_hook": [
