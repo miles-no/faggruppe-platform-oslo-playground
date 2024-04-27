@@ -49,6 +49,90 @@
         }
       }
     },
+    "kubectl@latest": {
+      "last_modified": "2024-04-19T17:36:04-04:00",
+      "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#kubectl",
+      "source": "devbox-search",
+      "version": "1.29.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wpjydnaaz6dahlavp8cll4afd9abgi9q-kubectl-1.29.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/7l0z7jvpnwmnj1g9pcflyfykn321xih4-kubectl-1.29.4-man",
+              "default": true
+            },
+            {
+              "name": "convert",
+              "path": "/nix/store/z5av2wbpms2bwqk5a009lf6lm44v288v-kubectl-1.29.4-convert"
+            }
+          ],
+          "store_path": "/nix/store/wpjydnaaz6dahlavp8cll4afd9abgi9q-kubectl-1.29.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hqd784c4j64nrd1rslb9f8c51qyk13vh-kubectl-1.29.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/kjarbx8gwdbjkaaahy4zdqa4g7nm2pv9-kubectl-1.29.4-man",
+              "default": true
+            },
+            {
+              "name": "convert",
+              "path": "/nix/store/d6qn1817mw5gx6r87v381pcv4myp0zm6-kubectl-1.29.4-convert"
+            }
+          ],
+          "store_path": "/nix/store/hqd784c4j64nrd1rslb9f8c51qyk13vh-kubectl-1.29.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c6xmni82xxhwnzz1hsjs6vlf22j46i2q-kubectl-1.29.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/427pw654765qzbhqhnbxa5bfi3w7r2dg-kubectl-1.29.4-man",
+              "default": true
+            },
+            {
+              "name": "convert",
+              "path": "/nix/store/rzij99nbffblpxwrdwavw4h2iavgxzcz-kubectl-1.29.4-convert"
+            }
+          ],
+          "store_path": "/nix/store/c6xmni82xxhwnzz1hsjs6vlf22j46i2q-kubectl-1.29.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/wvv8p10f1cz3wbikjhlvamqzhkb3khr4-kubectl-1.29.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/ydxqa2xl8hh4sg2n56zv59fmkq979zjm-kubectl-1.29.4-man",
+              "default": true
+            },
+            {
+              "name": "convert",
+              "path": "/nix/store/dp29pz35110sspxlbkn87nvjnannhnkv-kubectl-1.29.4-convert"
+            }
+          ],
+          "store_path": "/nix/store/wvv8p10f1cz3wbikjhlvamqzhkb3khr4-kubectl-1.29.4"
+        }
+      }
+    },
     "opentofu@latest": {
       "last_modified": "2024-04-19T17:36:04-04:00",
       "resolved": "github:NixOS/nixpkgs/92d295f588631b0db2da509f381b4fb1e74173c5#opentofu",
