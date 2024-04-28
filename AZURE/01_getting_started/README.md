@@ -33,3 +33,16 @@ From a shell
 - Remove global variables:
 
 `source ./99_cleanup`
+
+## Cleaning up if you lost your shell
+
+Since variables are stored in the current shell, if you lose the shell, it can be hard to clean up. We need 2 variables to clean up:
+
+- MY_AKS_CLUSTER_NAME and
+- MY_RESOURCE_GROUP_NAME
+
+You can get these from the kubectl context created.
+
+`MY_AKS_CLUSTER_NAME=$(kubectl config current-context)`
+
+`MY_RESOURCE_GROUP_NAME=$(k config get-users | grep $MY_AKS_CLUSTER_NAME | sed -e 's/.*\_\(.*\)_.*/\1/')`

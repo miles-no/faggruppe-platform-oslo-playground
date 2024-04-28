@@ -5,6 +5,9 @@ set -e pipefail
 [[ -z $MY_AKS_CLUSTER_NAME ]] && { echo "MY_AKS_CLUSTER_NAME is empty" ; exit 1; }
 
 # remove local kubectl config
+KUSER="clusterUser_${MY_RESOURCE_GROUP_NAME}_${MY_AKS_CLUSTER_NAME}"
+
+kubectl config delete-user $KUSER
 kubectl config delete-cluster $MY_AKS_CLUSTER_NAME
 kubectl config delete-context $MY_AKS_CLUSTER_NAME
 
